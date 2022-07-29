@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background: var(--red-500);
+  width: 55rem;
+}
+
+.item {
+  background: var(--gray-700);
+  width: 10rem;
+  height: 13rem;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.container .flags span {
+  font-family: "roboto", sans-serif;
+  font-size: 2.25rem;
+  color: red;
+  margin-left: 1rem;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+.flex-item-1 {
+  flex: 1;
+}

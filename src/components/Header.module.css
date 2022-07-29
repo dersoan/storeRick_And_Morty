@@ -1,0 +1,64 @@
+.header {
+  background: var(--gray-300);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--cor-green-600);
+}
+.header h1 {
+  font-family: "roboto", sans-serif;
+  font-size: 2.25rem;
+  color: var(--cor-green-500);
+  margin-left: 2rem;
+}
+
+.header button {
+  font-size: 15px;
+  font-family: Arial;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: #124d77;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  text-shadow: inset 0px 1px 0px #154682;
+  background: #007dc1;
+}
+
+.header button:hover {
+  background: #0061a7;
+}
+.nav {
+  display: flex;
+  width: 62vw;
+  justify-content: space-between;
+}
+.logo {
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 50%;
+}
+.logo img {
+  float: left;
+  gap: 5rem;
+}
+.logo h1 {
+  font-family: "roboto", sans-serif;
+  font-size: 2.25rem;
+  color: var(--cor-green-500);
+}
+
+.shopcart {
+  display: flex;
+  flex-direction: column;
+}
+.shopcart span {
+  font-family: "roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--cor-green-600);
+}

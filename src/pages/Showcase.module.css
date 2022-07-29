@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 55rem;
+}
+
+.personagens {
+  background: var(--gray-700);
+  width: 10rem;
+  height: 15rem;
+  margin: 5px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.card img {
+  width: 100%;
+  object-fit: scale-down;
+  padding: 5px;
+}
+.card button {
+  background-color: var(--cor-green-300);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: var(--gray-700);
+  font-size: 0.75rem;
+  padding: 2px 5px 2px 5px;
+  text-decoration: none;
+  border: none;
+  border-radius: 03px;
+  -webkit-border-radius: 03px;
+  -moz-border-radius: 03px;
+  -ms-border-radius: 03px;
+  -o-border-radius: 03px;
+}
+.card button:hover {
+  background-color: var(--cor-green-100);
+  text-decoration: none;
+  cursor: pointer;
+}
+.card p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: aquamarine;
+}
+.flags span {
+  font-family: "roboto", sans-serif;
+  font-size: 2.25rem;
+  color: red;
+  margin-left: 1rem;
+}

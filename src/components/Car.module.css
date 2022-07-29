@@ -1,0 +1,67 @@
+.car {
+  width: 100%;
+  padding:10px;
+  background-color: var(--cor-green-100);
+ border-radius:5px;
+  margin-bottom: 15px;
+}
+.car span {
+  margin: 15px;
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  color: var(--cor-green-500);
+  font-weight: 700;
+}
+.car h3 {
+  margin: 5px;
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  color: var(--cor-green-500);
+  font-weight: 700;
+}
+
+.car h4 {
+  margin: 5px;
+  font-family: "Roboto";
+  font-size: 1rem;
+  color: var(--green-500);
+  font-weight: 700;
+}
+.carButton {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.carButton button {
+  background-color: var(--cor-green-500);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 05px;
+
+  -webkit-border-radius: 05px;
+  -moz-border-radius: 05px;
+  -ms-border-radius: 05px;
+  -o-border-radius: 05px;
+}
+
+.carButton button:hover {
+  background-color: var(--cor-green-600);
+  text-decoration: none;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+.flex-item-1 {
+  flex: 1;
+}

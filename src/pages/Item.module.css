@@ -1,0 +1,38 @@
+.cardList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardList button {
+  background-color: transparent;
+  font-family: Arial;
+  color: var(--cor-green-500);
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  text-decoration: none;
+  border: none;
+  border-radius: 05px;
+
+  -webkit-border-radius: 05px;
+  -moz-border-radius: 05px;
+  -ms-border-radius: 05px;
+  -o-border-radius: 05px;
+}
+
+.cardList button:hover {
+  background-color: var(--cor-green-100);
+  text-decoration: none;
+  cursor: pointer;
+}
+.font {
+  font-family: "Roboto";
+  font-size: 12rem;
+  color: var(--cor-green-500);
+  font-weight: 700;
+}
+
+.list {
+  list-style: none;
+  margin-left: 15px;
+}
