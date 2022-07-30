@@ -1,4 +1,86 @@
-# storeRick_And_Morty
+
+<h1 align="center">
+    Carrinho de compras com consumo de api
+</h1>
+
+![image](https://user-images.githubusercontent.com/6932511/181805434-0da0d087-f9ba-42ef-91b0-d57a00ef7476.png)
+
+<h4 align="center"> 
+	🚧  web página 🚀 Finalizada 🚧
+</h4>
+
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-contribuidores">Contribuidores</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
+
+
+## 💻 Sobre o projeto
+
+ Essa página foi feita atraves de estudo na plataforna consumo de API
+https://rickandmortyapi.com/
+
+
+
+Projeto desenvolvido para aprendizado, **React** consumo de **API**
+
+
+---
+
+## ⚙️ Funcionalidades
+
+-   [x] Consumir API:
+  - [x] Montar uma card simples das imagens dos personagens
+  - [x] Coloar um preço e um botão de comprar
+  - [x] atualizar o carrinho de compras com o conteudo escolhido
+  - [x] deletar os cards do carrinho
+  
+
+
+## 🚀 Como executar o projeto
+
+Este projeto é divido em uma parte:
+
+1. Frontend (pasta web)
+
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+
+
+#### 🧭 Rodando a aplicação web (Frontend)
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/dersoan/storeRick_And_Morty.git
+
+# Vá para a pasta da aplicação Front End
+$ cd na sua pasta onde vc baixou
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# A aplicação será aberta pelo  
+
+```
+
+---
+
+
 
 ## 🛠 Tecnologias
 
@@ -10,9 +92,48 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-<br />
 
-![image](https://user-images.githubusercontent.com/6932511/181805434-0da0d087-f9ba-42ef-91b0-d57a00ef7476.png)
+
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Leaflet](https://react-leaflet.js.org/en/)**
+-   **[React Leaflet](https://react-leaflet.js.org/)**
+-   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
+
+
+
+#### **Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Express](https://expressjs.com/)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[KnexJS](http://knexjs.org/)**
+-   **[SQLite](https://github.com/mapbox/node-sqlite3)**
+-   **[ts-node](https://github.com/TypeStrong/ts-node)**
+-   **[dotENV](https://github.com/motdotla/dotenv)**
+-   **[Multer](https://github.com/expressjs/multer)**
+-   **[Celebrate](https://github.com/arb/celebrate)**
+-   **[Joi](https://github.com/hapijs/joi)**
+
+
+
+#### **Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Expo](https://expo.io/)**
+-   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
+-   **[React Navigation](https://reactnavigation.org/)**
+-   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
+-   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
+-   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
+-   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
+
+
+
+
 ---
 
 ## 👨‍💻 Contribuidores
